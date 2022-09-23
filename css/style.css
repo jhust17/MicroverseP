@@ -1,0 +1,51 @@
+/* Default Styules */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Main Styles */
+
+#main{
+    margin: 30px 5px;
+    background-color: #EEEEEE;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+
+#title{
+    padding-top: 30px; 
+    text-align: center;
+}
+
+#title h1{
+    font-size: 40px;
+}
+
+/* #title p{
+    font-size: 14px;
+} */
+
+/*  */
+#img-div{
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#image{
+    max-width: 100%;
+    margin: auto;
+}
+
+#img-caption{
+    text-align: center;
+    /* font-size: 13px; */
+    margin-top: 10px;
+}
